@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RY8cu0go5nzIi0TA+fq3VPKPVVhH4VXU/yRFkOoM1yCtFBfxAQJ2DJnQQufQE94tx/if8RlvCkeSJYPEN9xu2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
