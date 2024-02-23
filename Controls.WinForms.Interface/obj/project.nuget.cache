@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4YD0Zm9908hQU2/utldhEvjfodC+9NScKIPCPU+yzJR5nOYsSvV9KK3va9vLc7IvOP7Tng2Rsu7fbxq0RYWVw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Controls.WinForms.Interface\\Controls.WinForms.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\dockpanelsuite\\3.1.0\\dockpanelsuite.3.1.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Device.Interface\\Devices.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Device.Interface\\Devices.Interface.csproj",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Configuration.File.Interface\\Configuration.Data.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Configuration.File.Interface\\Configuration.Data.Interface.csproj",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBDB6A63-2976-4CC2-A681-5126D206F3A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{79763DE9-55E6-4188-8BD2-853BFACFF87B}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Connection.Interface\Connection.Interface.csproj">
+      <Project>{FF39D4D5-2E1B-4535-A6F4-6B0EB8923E9A}</Project>
+      <Name>Connection.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{B36AA6E3-3078-4B4E-97DD-E692DD264246}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Datam.Resources\Datam.Resources.csproj">
+      <Project>{8EB258E0-1C0D-4958-B9D3-AC89526A9D8E}</Project>
+      <Name>Datam.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Device.Interface\Device.Interface.csproj">
+      <Project>{02bc1330-9cc3-4d3b-a521-bbe03dd7fa98}</Project>
+      <Name>Device.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Device\Device.csproj">
+      <Project>{d635f7d1-09a0-4a76-ae1e-48e01832c5a8}</Project>
+      <Name>Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Parameter.Interface\Parameter.Interface.csproj">
+      <Project>{DB2B7317-31DE-42A5-BD74-7BD9F5FD4FA5}</Project>
+      <Name>Parameter.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Parameter\Parameter.csproj">
+      <Project>{A9A164F8-EC27-4666-A20C-A6E92FEA633A}</Project>
+      <Name>Parameter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Runtime\Runtime.csproj">
+      <Project>{1551e981-4e17-4770-8162-a86420301214}</Project>
+      <Name>Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Datam.WinForms.Interface\Datam.WinForms.Interface.csproj">
+      <Project>{991a2542-4f20-41ad-b10a-3a3425e756dc}</Project>
+      <Name>Datam.WinForms.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unit.Interface\Unit.Interface.csproj">
+      <Project>{95937f44-448b-4690-ba54-1e23ff917feb}</Project>
+      <Name>Unit.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scheduler.ParameterUpdate.Interface\Scheduler.ParameterUpdate.Interface.csproj">
+      <Project>{4AB5C71C-54AA-40F3-BC5A-36C7E01076E4}</Project>
+      <Name>Scheduler.ParameterUpdate.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scheduler.ParameterUpdate\Scheduler.ParameterUpdate.csproj">
+      <Project>{85B735EC-9F49-44B4-917E-21AD93D66F92}</Project>
+      <Name>Scheduler.ParameterUpdate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Core">
+      <Version>2.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="OxyPlot.WindowsForms">
+      <Version>2.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.Drawing.Primitives">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime">
+      <Version>4.3.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

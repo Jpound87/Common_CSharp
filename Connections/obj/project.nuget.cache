@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "hP9g6fmR0WLgv+b8PnUkAKfT1QTqk4XtIopmyOkmsmOiAR/LzC9DLr0DcWgIdiy4voURroWGdyOKkUobq4sXfA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Connections\\Connections.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\dockpanelsuite\\3.1.0\\dockpanelsuite.3.1.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter\\Parameters.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter\\Parameters.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Runtime\\Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Runtime\\Runtime.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

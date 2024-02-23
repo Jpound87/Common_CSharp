@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HbQeHitgAqO0fqD7QqoxecBtssKOnHRYUsAWW9PAz7Z4H+1JK32+EoV7b9KvlHVbK+n0UT7Xh0MwHaTkxofosg==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jon.battison\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\jon.battison\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\jon.battison\\.nuget\\packages\\serialportstream\\2.4.0\\serialportstream.2.4.0.nupkg.sha512",
+    "C:\\Users\\jon.battison\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\jon.battison\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\jon.battison\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

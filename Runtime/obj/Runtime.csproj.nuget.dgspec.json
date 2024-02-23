@@ -1,0 +1,1294 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\datam\\Runtime\\Runtime.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\datam\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Git\\datam\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "DockPanelSuite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj",
+        "projectName": "Configuration.Data.Interface",
+        "projectPath": "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Configuration.File.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Connections.Interface\\Connections.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Connections.Interface\\Connections.Interface.csproj",
+        "projectName": "Connections.Interface",
+        "projectPath": "C:\\Git\\datam\\Connections.Interface\\Connections.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Connections.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj",
+        "projectName": "Datam.Resources",
+        "projectPath": "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Datam.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Datam.WinForms.Interface\\Datam.WinForms.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Datam.WinForms.Interface\\Datam.WinForms.Interface.csproj",
+        "projectName": "Datam.WinForms.Interface",
+        "projectPath": "C:\\Git\\datam\\Datam.WinForms.Interface\\Datam.WinForms.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Datam.WinForms.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj",
+        "projectName": "Datasheets.Interface",
+        "projectPath": "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Datasheets.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj",
+        "projectName": "Devices.Interface",
+        "projectPath": "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Device.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Configuration.File.Interface\\Configuration.Data.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Connections.Interface\\Connections.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Connections.Interface\\Connections.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj"
+              },
+              "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Firmware.Interface\\Firmware.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Firmware.Interface\\Firmware.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              },
+              "C:\\Git\\datam\\PolymorphicControl.Interface\\PolymorphicControls.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\PolymorphicControl.Interface\\PolymorphicControls.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj",
+        "projectName": "DockSuite.Themes.Interface",
+        "projectPath": "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\DockSuite.Themes.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\DockSuite.Themes\\DockSuite.Themes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\DockSuite.Themes\\DockSuite.Themes.csproj",
+        "projectName": "DockSuite.Themes",
+        "projectPath": "C:\\Git\\datam\\DockSuite.Themes\\DockSuite.Themes.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\DockSuite.Themes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datam.Resources\\Datam.Resources.csproj"
+              },
+              "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "DockPanelSuite.ThemeVS2015": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Firmware.Interface\\Firmware.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Firmware.Interface\\Firmware.Interface.csproj",
+        "projectName": "Firmware.Interface",
+        "projectPath": "C:\\Git\\datam\\Firmware.Interface\\Firmware.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Firmware.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "projectName": "Logging.Interface",
+        "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Logging.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Logging\\Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Logging\\Logging.csproj",
+        "projectName": "Logging",
+        "projectPath": "C:\\Git\\datam\\Logging\\Logging.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj",
+        "projectName": "Parameters.Interface",
+        "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Parameter.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\PolymorphicControl.Interface\\PolymorphicControls.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\PolymorphicControl.Interface\\PolymorphicControls.Interface.csproj",
+        "projectName": "PolymorphicControls.Interface",
+        "projectPath": "C:\\Git\\datam\\PolymorphicControl.Interface\\PolymorphicControls.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\PolymorphicControl.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "projectName": "Runtime",
+        "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Runtime\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Datam.WinForms.Interface\\Datam.WinForms.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datam.WinForms.Interface\\Datam.WinForms.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheets.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Devices.Interface.csproj"
+              },
+              "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockSuite.Themes.Interface\\DockSuite.Themes.Interface.csproj"
+              },
+              "C:\\Git\\datam\\DockSuite.Themes\\DockSuite.Themes.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockSuite.Themes\\DockSuite.Themes.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging\\Logging.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging\\Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "lz4net": {
+              "target": "Package",
+              "version": "[1.0.15.93, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj",
+        "projectName": "Scheduler.ParameterUpdate.Interface",
+        "projectPath": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\Scheduler.ParameterUpdate.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Scheduler.ParameterUpdate.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameters.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "projectName": "Unit.Interface",
+        "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Unit.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

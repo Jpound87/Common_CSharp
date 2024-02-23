@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "zXh0ubL7MPEM1jWu6igD//HS9xih9THJVftlBOSpQBMh1lyU/DfVbkKUj2CG6Bqa/p/uwUKMhWw0y6D8jrFXSw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Connections.Interface\\Connections.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\dockpanelsuite\\3.1.0\\dockpanelsuite.3.1.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Parameter.Interface\\Parameters.Interface.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

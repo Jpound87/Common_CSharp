@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "dgSpecHash": "JIvzhM4yjlvAe5+ll40/kF8g0hpXAdA39bNobW4RDSGzKYcUJprP9+oazUe/kPu6NF7uzE+CW/Ovq+wQsmGs8Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.windowsforms\\2.1.2\\oxyplot.windowsforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net48 (.NETFramework,Version=v4.8). Project Common supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Unit.Interface is not compatible with net48 (.NETFramework,Version=v4.8). Project Unit.Interface supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unit.Interface",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net48 (.NETFramework,Version=v4.8) / win. Project Common supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Unit.Interface is not compatible with net48 (.NETFramework,Version=v4.8) / win. Project Unit.Interface supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unit.Interface",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net48 (.NETFramework,Version=v4.8) / win-arm64. Project Common supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Unit.Interface is not compatible with net48 (.NETFramework,Version=v4.8) / win-arm64. Project Unit.Interface supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unit.Interface",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net48 (.NETFramework,Version=v4.8) / win-x64. Project Common supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Unit.Interface is not compatible with net48 (.NETFramework,Version=v4.8) / win-x64. Project Unit.Interface supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unit.Interface",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net48 (.NETFramework,Version=v4.8) / win-x86. Project Common supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Unit.Interface is not compatible with net48 (.NETFramework,Version=v4.8) / win-x86. Project Unit.Interface supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unit.Interface",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EUZ20kdMlI0URx6MI3G4v2Ci8BkNcv423CvrU410c4Xh4zoujh4IZGXBCFNU8I8dBHJmbdxzhe1GxnRfv71a+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Logging\\Logging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\dockpanelsuite\\3.1.0\\dockpanelsuite.3.1.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

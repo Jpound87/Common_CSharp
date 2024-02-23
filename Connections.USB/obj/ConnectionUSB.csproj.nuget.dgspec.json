@@ -1,0 +1,1338 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\datam\\SerialCommunicator\\ConnectionUSB.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\datam\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Git\\datam\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj",
+        "projectName": "Connection.Interface",
+        "projectPath": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Communication.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj",
+        "projectName": "ConfigurationFiles.Interface",
+        "projectPath": "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\ConfigurationFile.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Collections.Concurrent": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj",
+        "projectName": "ConnectionUSB.Interface",
+        "projectPath": "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\ConnectionUSB.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Connection\\Connection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Connection\\Connection.csproj",
+        "projectName": "Connection",
+        "projectPath": "C:\\Git\\datam\\Connection\\Connection.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Connection\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj",
+        "projectName": "Datasheets.Interface",
+        "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Datasheet.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj",
+        "projectName": "Device.Interface",
+        "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Device.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj"
+              },
+              "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              },
+              "C:\\Git\\datam\\UpdateScheduler.Interface\\UpdateScheduler.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\UpdateScheduler.Interface\\UpdateScheduler.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj",
+        "projectName": "DockThemes.Interface",
+        "projectPath": "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\DockThemes.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DockPanelSuite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\DockThemes\\DockThemes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\DockThemes\\DockThemes.csproj",
+        "projectName": "DockThemes",
+        "projectPath": "C:\\Git\\datam\\DockThemes\\DockThemes.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\DockThemes\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Resources\\DatamResources.csproj": {
+                "projectPath": "C:\\Git\\datam\\Resources\\DatamResources.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DockPanelSuite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "DockPanelSuite.ThemeVS2015": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Xml.ReaderWriter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Xml.XDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "projectName": "Logging.Interface",
+        "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Logging.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Diagnostics.Process": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\MotionConfiguration.Interface\\MotionConfiguration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\MotionConfiguration.Interface\\MotionConfiguration.csproj",
+        "projectName": "MotionConfiguration",
+        "projectPath": "C:\\Git\\datam\\MotionConfiguration.Interface\\MotionConfiguration.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\MotionConfiguration.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj",
+        "projectName": "Parameter.Interface",
+        "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Parameter.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Resources\\DatamResources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Resources\\DatamResources.csproj",
+        "projectName": "DatamResources",
+        "projectPath": "C:\\Git\\datam\\Resources\\DatamResources.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "projectName": "Runtime",
+        "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Runtime\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockThemes.Interface\\DockThemes.Interface.csproj"
+              },
+              "C:\\Git\\datam\\DockThemes\\DockThemes.csproj": {
+                "projectPath": "C:\\Git\\datam\\DockThemes\\DockThemes.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DockPanelSuite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\SerialCommunicator\\ConnectionUSB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\SerialCommunicator\\ConnectionUSB.csproj",
+        "projectName": "ConnectionUSB",
+        "projectPath": "C:\\Git\\datam\\SerialCommunicator\\ConnectionUSB.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\SerialCommunicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Connection.Interface.csproj"
+              },
+              "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ConnectionUSB.Interface\\ConnectionUSB.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Connection\\Connection.csproj": {
+                "projectPath": "C:\\Git\\datam\\Connection\\Connection.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\Utility\\AM_WinForms.Datam.csproj": {
+                "projectPath": "C:\\Git\\datam\\Utility\\AM_WinForms.Datam.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "System.Collections.Concurrent": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Text.Encoding.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj",
+        "projectName": "UI.Interface",
+        "projectPath": "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Ui.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DockPanelSuite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "projectName": "Unit.Interface",
+        "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Unit.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Unit\\Unit.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Unit\\Unit.csproj",
+        "projectName": "Unit",
+        "projectPath": "C:\\Git\\datam\\Unit\\Unit.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\UpdateScheduler.Interface\\UpdateScheduler.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\UpdateScheduler.Interface\\UpdateScheduler.Interface.csproj",
+        "projectName": "UpdateScheduler.Interface",
+        "projectPath": "C:\\Git\\datam\\UpdateScheduler.Interface\\UpdateScheduler.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Utility\\AM_WinForms.Datam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Utility\\AM_WinForms.Datam.csproj",
+        "projectName": "AM_WinForms.Datam",
+        "projectPath": "C:\\Git\\datam\\Utility\\AM_WinForms.Datam.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ConfigurationFile.Interface\\ConfigurationFiles.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Datasheet.Interface\\Datasheets.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\MotionConfiguration.Interface\\MotionConfiguration.csproj": {
+                "projectPath": "C:\\Git\\datam\\MotionConfiguration.Interface\\MotionConfiguration.csproj"
+              },
+              "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Parameter.Interface\\Parameter.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Ui.Interface\\UI.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit\\Unit.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit\\Unit.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Collections.Concurrent": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

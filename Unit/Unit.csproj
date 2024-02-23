@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>Unit</AssemblyTitle>
+    <Product>Unit</Product>
+    <Copyright>Copyright ©  2023</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Allied Motion Technologies</Company>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Datasheets.Interface\Datasheets.Interface.csproj" />
+    <ProjectReference Include="..\Device.Interface\Devices.Interface.csproj" />
+    <ProjectReference Include="..\Logging.Interface\Logging.Interface.csproj" />
+    <ProjectReference Include="..\Parameter.Interface\Parameters.Interface.csproj" />
+    <ProjectReference Include="..\Runtime\Runtime.csproj" />
+    <ProjectReference Include="..\Unit.Interface\Unit.Interface.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="System.Runtime.InteropServices.ComVisibleAttribute" Value="False" />
+  </ItemGroup>
+</Project>

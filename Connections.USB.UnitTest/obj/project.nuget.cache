@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "jG0h8j2zNUPgtLhMPgU13Ic13lEZ4eRJRzFxT+0HHNmSAiwzGv24pY2mSECJUsxyZxs6HVCnLIUCcSHDKFaAjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Batti\\OneDrive\\Documents\\Git\\Common_CSharp\\Connections.USB.UnitTest\\Connections.USB.UnitTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batti\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.codecoverage\\17.7.0\\microsoft.codecoverage.17.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.0\\microsoft.net.test.sdk.17.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.7.0\\microsoft.testplatform.objectmodel.17.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\microsoft.testplatform.testhost\\17.7.0\\microsoft.testplatform.testhost.17.7.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mstest.testadapter\\3.1.1\\mstest.testadapter.3.1.1.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\Batti\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AssemblyTitle>Datam.WinForms</AssemblyTitle>
+    <Product>Datam.WinForms</Product>
+    <Copyright>Copyright ©  2023</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Allied Motion Technologies</Company>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Base\Gauge_Base.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Gauge.cs" />
+    <Compile Update="Controls\DeviceTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Gauge_Numeric.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Configuration.File.Interface\Configuration.Data.Interface.csproj" />
+    <ProjectReference Include="..\Datam.Resources\Datam.Resources.csproj" />
+    <ProjectReference Include="..\Datam.WinForms.Interface\Datam.WinForms.Interface.csproj" />
+    <ProjectReference Include="..\Datasheets.Interface\Datasheets.Interface.csproj" />
+    <ProjectReference Include="..\Datasheets\Datasheets.csproj" />
+    <ProjectReference Include="..\Device.Interface\Devices.Interface.csproj" />
+    <ProjectReference Include="..\Device\Devices.csproj" />
+    <ProjectReference Include="..\Logging.Interface\Logging.Interface.csproj" />
+    <ProjectReference Include="..\Parameter.Interface\Parameters.Interface.csproj" />
+    <ProjectReference Include="..\Parameter\Parameters.csproj" />
+    <ProjectReference Include="..\PolymorphicControl\PolymorphicControls.csproj" />
+    <ProjectReference Include="..\Runtime\Runtime.csproj" />
+    <ProjectReference Include="..\Scheduler.Motion\Scheduler.Motion.csproj" />
+    <ProjectReference Include="..\Scheduler.ParameterUpdate.Interface\Scheduler.ParameterUpdate.Interface.csproj" />
+    <ProjectReference Include="..\Scheduler.ParameterUpdate\Scheduler.ParameterUpdate.csproj" />
+    <ProjectReference Include="..\Unit.Interface\Unit.Interface.csproj" />
+    <ProjectReference Include="..\Unit\Unit.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\*.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="System.Runtime.InteropServices.ComVisibleAttribute" Value="False" />
+  </ItemGroup>
+</Project>

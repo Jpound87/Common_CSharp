@@ -1,0 +1,403 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\datam\\SerialCommunicator\\SerialCommunicator.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\datam\\Common\\Common.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Git\\datam\\Common\\Common.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj",
+        "projectName": "Communication.Interface",
+        "projectPath": "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Container\\Container.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Container\\Container.csproj",
+        "projectName": "Container",
+        "projectPath": "C:\\Git\\datam\\Container\\Container.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj",
+        "projectName": "Device.Interface",
+        "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\Device.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Container\\Container.csproj": {
+                "projectPath": "C:\\Git\\datam\\Container\\Container.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "projectName": "Logging.Interface",
+        "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "projectName": "Runtime",
+        "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Container\\Container.csproj": {
+                "projectPath": "C:\\Git\\datam\\Container\\Container.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\SerialCommunicator\\SerialCommunicator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\SerialCommunicator\\SerialCommunicator.csproj",
+        "projectName": "SerialCommunicator",
+        "projectPath": "C:\\Git\\datam\\SerialCommunicator\\SerialCommunicator.csproj",
+        "packagesPath": "C:\\Users\\jon.battison\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\datam\\SerialCommunicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jon.battison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Communication.Interface\\Communication.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Container\\Container.csproj": {
+                "projectPath": "C:\\Git\\datam\\Container\\Container.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Git\\datam\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj",
+        "projectName": "ServiceProvider.Interface",
+        "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj",
+        "projectName": "Ui.Interface",
+        "projectPath": "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "projectName": "Unit.Interface",
+        "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Unit\\Unit.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Unit\\Unit.csproj",
+        "projectName": "Unit",
+        "projectPath": "C:\\Git\\datam\\Unit\\Unit.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Container\\Container.csproj": {
+                "projectPath": "C:\\Git\\datam\\Container\\Container.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Git\\datam\\Utility\\Utility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\datam\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "C:\\Git\\datam\\Utility\\Utility.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Git\\datam\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git\\datam\\Common\\Common.csproj"
+              },
+              "C:\\Git\\datam\\Container\\Container.csproj": {
+                "projectPath": "C:\\Git\\datam\\Container\\Container.csproj"
+              },
+              "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Device.Interface\\Device.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Logging.Interface\\Logging.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Runtime\\Runtime.csproj": {
+                "projectPath": "C:\\Git\\datam\\Runtime\\Runtime.csproj"
+              },
+              "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\ServiceProvider.Interface\\ServiceProvider.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Ui.Interface\\Ui.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit.Interface\\Unit.Interface.csproj"
+              },
+              "C:\\Git\\datam\\Unit\\Unit.csproj": {
+                "projectPath": "C:\\Git\\datam\\Unit\\Unit.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

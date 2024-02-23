@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AssemblyTitle>Datam.WinForms.Interface</AssemblyTitle>
+    <Company>Allied Motion Technologies</Company>
+    <Product>Datam.WinForms.Interface</Product>
+    <Copyright>Copyright ©  2023</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Allied Motion Technologies</Company>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Configuration.File.Interface\Configuration.Data.Interface.csproj" />
+    <ProjectReference Include="..\Device.Interface\Devices.Interface.csproj" />
+    <ProjectReference Include="..\Parameter.Interface\Parameters.Interface.csproj" />
+    <ProjectReference Include="..\Scheduler.ParameterUpdate.Interface\Scheduler.ParameterUpdate.Interface.csproj" />
+    <ProjectReference Include="..\Unit.Interface\Unit.Interface.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="System.Runtime.InteropServices.ComVisibleAttribute" Value="False" />
+  </ItemGroup>
+</Project>
